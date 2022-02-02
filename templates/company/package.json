@@ -41,7 +41,7 @@
     "deploy:harmonyTest": "truffle exec ./scripts/deploy.js --network harmonyTest --ens 0xbc7828fa8665c637901ad5abd5c7e647c9ab140f --dao-factory 0xb5ee7f9558e4b8549c35f019db0b8e549878b678 --mini-me-factory 0xfcabf5b75473447e4fde4043f8255b2dadbf0782",
     "deploy:bscTest": "truffle exec ./scripts/deploy.js --network bscTest --ens 0x843ddfab8406e752d03fa75dbb275070f368658d --dao-factory 0xc4ddbd0472c2688f5d278dafc02e66ee176c8de3",
     "deploy:harmony": "truffle exec ./scripts/deploy.js --network harmony --ens 0x843ddfab8406e752d03fa75dbb275070f368658d --dao-factory 0xc4ddbd0472c2688f5d278dafc02e66ee176c8de3 --mini-me-factory 0x96e54098317631641703404c06a5afad89da7373"
-},
+  },
   "dependencies": {
     "@aragon/apps-agent": "^2.0.0",
     "@aragon/apps-finance": "^3.0.0",
@@ -54,7 +54,8 @@
     "@aragon/cli": "^7.1.6",
     "@aragon/id": "2.0.3",
     "@aragon/os": "4.3.0",
-    "@aragon/templates-shared": "^1.0.0"
+    "@aragon/templates-shared": "^1.0.0",
+    "@truffle/hdwallet-provider": "^1.0.0"
   },
   "devDependencies": {
     "@aragon/apps-survey": "^1.0.0",
@@ -83,7 +84,6 @@
     "solium": "^1.2.5",
     "truffle": "4.1.14",
     "truffle-extract": "^1.2.1",
-    "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.2.11"
   }
 }
